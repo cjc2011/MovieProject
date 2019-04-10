@@ -20,6 +20,8 @@
   "dependencies": {
     "ejs": "^2.6.1",
     "koa": "^2.7.0",
+    "koa-views": "^6.2.0",
+    "koa-views-render": "0.0.1",
     "pug": "^2.0.3"
   }
 }
