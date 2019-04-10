@@ -4,10 +4,50 @@ block title
   title Koa Movise
 
 block content
-  .container 
-    .row 
-      .col-md-8 
-        h1 Hi #{name}  
-        p This is Movie App 
-      .col-md-4 
-        p 测试静态页面
+
+  include ./includes/header
+  .container-fluid 
+    .sidebar.col-12.col-md-3.col-xl-2
+      .collapse.cat-link 
+        .sidebar-link(href="/") Links
+        ul.nav.sidebar-inner 
+          li.active.sidebar-inner-active
+            a(href="/") Link1 
+          li.sidebar-inner-active
+            a(href="/") Link2
+    .content
+      .row 
+        .clo-md-6
+          .card 
+            img.card-img-top(src="https://jdxl-img.b0.upaiyun.com/uploads/0bc2a9e165c54721b743ac1e6010a4c8.png", data-video="https://vdn1.vzuu.com/SD/7e00ca84-180c-11e9-b022-0a580a419483.mp4?disable_local_cache=1&bu=com&expiration=1554880713&auth_key=1554880713-0-0-b2e7c25672a01ed72747ea883ae39bb2&f=mp4&v=hw")
+            .card-body 
+              h4.card-title 这是电影标签
+              p.card-desc 这是电影面熟
+            .card-footer 
+              small.text-muted 1 天前更新
+        .clo-md-6
+          .card 
+            img.card-img-top(src="https://pic2.zhimg.com/v2-db2ca5851177377be0893c6e8a019f25.jpg", data-video="https://vdn1.vzuu.com/SD/7e00ca84-180c-11e9-b022-0a580a419483.mp4?disable_local_cache=1&bu=com&expiration=1554880713&auth_key=1554880713-0-0-b2e7c25672a01ed72747ea883ae39bb2&f=mp4&v=hw")
+            .card-body 
+              h4.card-title 这是电影标签
+              p.card-desc 这是电影面熟
+            .card-footer 
+              small.text-muted 1 天前更新
+      .row 
+        .clo-md-6
+          .card 
+            img.card-img-top(src="https://pic2.zhimg.com/v2-db2ca5851177377be0893c6e8a019f25.jpg", data-video="https://vdn1.vzuu.com/SD/7e00ca84-180c-11e9-b022-0a580a419483.mp4?disable_local_cache=1&bu=com&expiration=1554880713&auth_key=1554880713-0-0-b2e7c25672a01ed72747ea883ae39bb2&f=mp4&v=hw")
+            .card-body 
+              h4.card-title 这是电影标签
+              p.card-desc 这是电影面熟
+            .card-footer 
+              small.text-muted 1 天前更新
+        .clo-md-6
+          .card 
+            img.card-img-top(src="https://pic2.zhimg.com/v2-db2ca5851177377be0893c6e8a019f25.jpg", data-video="https://vdn1.vzuu.com/SD/7e00ca84-180c-11e9-b022-0a580a419483.mp4?disable_local_cache=1&bu=com&expiration=1554880713&auth_key=1554880713-0-0-b2e7c25672a01ed72747ea883ae39bb2&f=mp4&v=hw")
+            .card-body 
+              h4.card-title 这是电影标签
+              p.card-desc 这是电影面熟
+            .card-footer 
+              small.text-muted 1 天前更新        
+    
